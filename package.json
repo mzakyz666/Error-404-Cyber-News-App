@@ -1,7 +1,7 @@
 {
-  "name": "wordapp",
-  "version": "1.1.1",
-  "description": "WordApp: An Ionic project",
+  "name": "error404cybernewsapp",
+  "version": "1.0.8",
+  "description": "Error 404 Cyber News App: An Ionic project",
   "dependencies": {
     "gulp": "^3.5.6",
     "gulp-sass": "^2.0.4",
