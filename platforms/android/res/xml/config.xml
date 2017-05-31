@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.errorcybernews" version="1.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <allow-intent href="market:*" />
+    <name>Error 404 Cyber News</name>
+    <description>
+        - The Revolution Has Just Begun -
+    </description>
+    <author email="central@errorcybernews.com" href="https://errorcybernews.com/">
+      kernel-panic
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <preference name="android-build-tool" value="gradle" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="SplashScreenDelay" value="4000" />
+    <preference name="SplashScreen" value="screen" />
+    <preference name="FadeSplashScreen" value="false" />
+    <preference name="BackupWebStorage" value="none" />
+    <icon src="www/res/icon.png" />
+    <splash src="www/res/screen.png" />
+    <icon platform="android" qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
+    <icon platform="android" qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
+    <icon platform="android" qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
+    <icon platform="android" qualifier="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
+    <icon platform="blackberry" src="www/res/icon/blackberry/icon-80.png" />
+    <icon platform="blackberry" src="www/res/icon/blackberry/icon-80.png" state="hover" />
+    <icon height="57" platform="ios" src="www/res/icon/ios/icon-57.png" width="57" />
+    <icon height="72" platform="ios" src="www/res/icon/ios/icon-72.png" width="72" />
+    <icon height="114" platform="ios" src="www/res/icon/ios/icon-57-2x.png" width="114" />
+    <icon height="144" platform="ios" src="www/res/icon/ios/icon-72-2x.png" width="144" />
+    <icon platform="webos" src="www/res/icon/webos/icon-64.png" />
+    <icon platform="winphone" src="www/res/icon/windows-phone/icon-48.png" />
+    <icon platform="winphone" role="background" src="www/res/icon/windows-phone/icon-173-tile.png" />
+    <splash platform="android" qualifier="port-ldpi" src="www/res/screen/android/screen-ldpi-portrait.png" />
+    <splash platform="android" qualifier="port-mdpi" src="www/res/screen/android/screen-mdpi-portrait.png" />
+    <splash platform="android" qualifier="port-hdpi" src="www/res/screen/android/screen-hdpi-portrait.png" />
+    <splash platform="android" qualifier="port-xhdpi" src="www/res/screen/android/screen-xhdpi-portrait.png" />
+    <splash platform="blackberry" src="www/res/screen/blackberry/screen-225.png" />
+    <splash height="480" platform="ios" src="www/res/screen/ios/screen-iphone-portrait.png" width="320" />
+    <splash height="960" platform="ios" src="www/res/screen/ios/screen-iphone-portrait-2x.png" width="640" />
+    <splash height="1136" platform="ios" src="www/res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" />
+    <splash height="1024" platform="ios" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
+    <splash height="768" platform="ios" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
+    <splash platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
